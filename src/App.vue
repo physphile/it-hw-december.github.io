@@ -15,7 +15,10 @@ export default {
   data() {
     return {
       papers: [
-        {paperTitle: "Initial Paper", paperAuthor: "physfeel", paperDate: "2020/12/8"}
+        {title: "Initial Paper", author: "physfeel", date: "2020/12/8"},
+        {title: "Языки для души", author: "rabriva", date: "2020/12/7"},
+        {title: "Топ эзотерических языков", author: "rabriva", date: "2020/12/6"},
+        {title: "Привет, мир!", author: "physfeel", date: "2020/12/5"}
       ]
     }
   },
